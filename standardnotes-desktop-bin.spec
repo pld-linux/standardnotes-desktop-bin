@@ -12,6 +12,11 @@ URL:		https://github.com/standardnotes/desktop
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+# breaks resulting binary
+%define	no_install_post_strip 1
+
+%define _enable_debug_packages 0
+
 %description
 A free, open-source, and completely encrypted notes app. Mac, PC, &
 Linux app repository.
