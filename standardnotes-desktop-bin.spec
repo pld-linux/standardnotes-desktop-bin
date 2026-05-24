@@ -1,7 +1,7 @@
 Summary:	A simple and private notes app
 Name:		standardnotes-desktop-bin
 Version:	3.0.25
-Release:	1
+Release:	2
 License:	AGPL v3+
 Group:		Applications
 Source0:	https://github.com/standardnotes/desktop/releases/download/v%{version}/Standard-Notes-%{version}.AppImage
